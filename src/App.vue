@@ -52,9 +52,8 @@ created() {
 </template>
 
 <style lang="scss">
-@use 'assets/scss/main' as *;
-@use 'assets/scss/variables' as *;
-@use 'assets/scss/mixins' as *;
+@use '../src/assets/scss/main.scss' as *;
+
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 </style>

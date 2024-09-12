@@ -17,15 +17,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
 
 header {
-  background-color: $mainBgColor;
+  background-color: red;
   text-align: center;
   padding: 20px 0;
 }
 
 h1 {
-  color: $mainColor;
+  color: blue;
 }
 </style>
